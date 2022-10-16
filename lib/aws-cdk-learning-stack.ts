@@ -10,7 +10,7 @@ export class AwsCdkLearningStack extends Stack {
     const hello = new lambda.Function(this, 'HelloHandlerJs', {
       runtime: lambda.Runtime.NODEJS_14_X,
       code: lambda.Code.fromAsset('lambda'),
-      handler: 'hello_js.Handler'
+      handler: 'hello_js.handler'
     })
   }
 }
