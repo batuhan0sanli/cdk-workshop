@@ -1,5 +1,5 @@
 .DS_*
-.idea
+.idea/*
 *.js
 !jest.config.js
 *.d.ts
