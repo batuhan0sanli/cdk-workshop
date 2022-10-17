@@ -22,7 +22,7 @@ The directions on https://cdkworkshop.com/ are followed.
 - - [x] Cleanup sample
 - - [x] Hello Lambda
 - - [x] CDK Watch
-- - [ ] API Gateway
+- - [x] API Gateway
 - [ ] Writing constructs
 - - [ ] Define the HitCounter API
 - - [ ] Hit counter handler
