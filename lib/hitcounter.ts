@@ -28,5 +28,6 @@ export class HitCounter extends Construct {
         });
 
         table.grantReadWriteData(this.handler);  // add permission to the handler to read/write to the table
+        props.downstream.grantInvoke(this.handler);  // add permission to the handler to invoke the downstream function
     }
 }
