@@ -28,7 +28,7 @@ Documentation: https://docs.aws.amazon.com/cdk/api/v2/
 - [ ] Writing constructs
 - - [x] Define the HitCounter API
 - - [x] Hit counter handler
-- - [ ] Define resources
+- - [x] Define resources
 - - [ ] Use the hit counter
 - - [ ] CloudWatch Logs
 - - [ ] Granting permissions
