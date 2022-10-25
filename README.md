@@ -2,6 +2,8 @@
 
 The directions on https://cdkworkshop.com/ are followed.
 
+Documentation: https://docs.aws.amazon.com/cdk/api/v2/
+
 ## Useful commands
 
 * `npm run build`   compile typescript to js
