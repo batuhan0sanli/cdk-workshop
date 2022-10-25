@@ -26,7 +26,7 @@ Documentation: https://docs.aws.amazon.com/cdk/api/v2/
 - - [x] CDK Watch
 - - [x] API Gateway
 - [ ] Writing constructs
-- - [ ] Define the HitCounter API
+- - [x] Define the HitCounter API
 - - [ ] Hit counter handler
 - - [ ] Define resources
 - - [ ] Use the hit counter
