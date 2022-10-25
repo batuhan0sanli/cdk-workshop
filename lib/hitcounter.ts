@@ -26,5 +26,7 @@ export class HitCounter extends Construct {
                 HITS_TABLE_NAME: table.tableName  // tableName = path
             }
         });
+
+        table.grantReadWriteData(this.handler);  // add permission to the handler to read/write to the table
     }
 }
