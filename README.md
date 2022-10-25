@@ -25,14 +25,14 @@ Documentation: https://docs.aws.amazon.com/cdk/api/v2/
 - - [x] Hello Lambda
 - - [x] CDK Watch
 - - [x] API Gateway
-- [ ] Writing constructs
+- [x] Writing constructs
 - - [x] Define the HitCounter API
 - - [x] Hit counter handler
 - - [x] Define resources
 - - [x] Use the hit counter
-- - [ ] CloudWatch Logs
-- - [ ] Granting permissions
-- - [ ] Test the hit counter
+- - [x] CloudWatch Logs
+- - [x] Granting permissions
+- - [x] Test the hit counter
 - [ ] Using construct libraries
 - - [ ] Learning about the Table Viewer construct
 - - [ ] Installing the library
