@@ -22,7 +22,7 @@ export class AwsCdkLearningStack extends Stack {
     })
 
     // defines an API Gateway REST API resource backed by our "hello" function.
-    new apigw.LambdaRestApi(this, 'Endpoint', {
+    new apigw.LambdaRestApi(this, 'LearningStackApi', {
       handler: helloWithCounter.handler
     })
   }
