@@ -3,7 +3,7 @@ import * as lambda from 'aws-cdk-lib/aws-lambda'
 import * as apigw from 'aws-cdk-lib/aws-apigateway';
 
 import { Construct } from 'constructs';
-import { HitCounter } from "./hitcounter";
+import { HitCounter } from "../constructs/hitcounter";
 
 export class AwsCdkLearningStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
