@@ -17,7 +17,7 @@ export class AwsCdkLearningStack extends Stack {
     })
 
     // define HelloHandlerJs function with hit counter
-    const helloWithCounter = new HitCounter(this, "HelloHitCounter", {
+    const helloWithCounter = new HitCounter(this, "HitCounter", {
       downstream: hello
     })
 
